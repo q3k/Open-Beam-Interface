@@ -26,5 +26,8 @@ async def main():
     async with assembly:
         await iface.server()
 
-if __name__ == "__main__":
+def launch_server():
     asyncio.run(main())
+
+if __name__ == "__main__":
+    launch_server()

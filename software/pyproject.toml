@@ -21,7 +21,7 @@ license = {text = "\"0BSD OR Apache-2.0\""}
 open_beam_interface = "obi.applet.open_beam_interface:OBIApplet"
 
 [project.scripts]
-obi-server = "obi.launch:main_server"
+obi-server = "obi.launch:launch_server"
 obi-gui = "obi.gui.main:run_gui"
 
 [project.optional-dependencies]
